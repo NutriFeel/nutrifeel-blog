@@ -5,7 +5,7 @@ import { SeedButton } from './SeedButton'
 
 import './index.scss'
 
-import Image from "next/image";
+import Image from 'next/image';
 
 const baseClass = 'before-dashboard'
 
@@ -71,7 +71,6 @@ const BeforeDashboard: React.FC = () => {
     // </div>
     <>
       <Image
-        className='relative top-[-7px]'
         src="/bienvenidos.jpeg"
         alt="Meme"
         width={350}
