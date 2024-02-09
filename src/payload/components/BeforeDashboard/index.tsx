@@ -1,11 +1,10 @@
 import React from 'react'
+import Image from 'next/image'
 import { Banner } from 'payload/components'
 
 import { SeedButton } from './SeedButton'
 
 import './index.scss'
-
-import Image from 'next/image'
 
 const baseClass = 'before-dashboard'
 
@@ -70,12 +69,7 @@ const BeforeDashboard: React.FC = () => {
     //   , you can remove it at any time by updating your <strong>payload.config</strong>.
     // </div>
     <>
-      <Image
-        src="/bienvenidos.jpeg"
-        alt="Meme"
-        width={350}
-        height={0}
-      />
+      <Image src="/bienvenidos.jpeg" alt="Meme" width={350} height={0} />
       <p>si se pudo si se pudo</p>
     </>
   )
